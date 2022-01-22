@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* header */
+
+header{
+    display: flex;
+    margin: auto;
+    height: 100px;
+    align-items: centers;
+}
+.icon{
+    height: 30px;
+    position: relative;
+    top: 40px;
+}
+.logo-container{
+    flex: 2;
+}
+.logo-container img{
+    position: relative;
+    left: 40px;
+}
+nav{
+    flex: 6;
+}
+.cart{
+    flex: 2;
+    position: relative;
+    left: 90px;
+}
+.logo-container, .nav-links, .cart{
+    display: flex;
+}
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+}
+.nav-links .this-page{
+    color: darkgray;
+}
+
+/* end header */
+
+/* sample item intro */
+
+.presentation{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.introduction{
+    flex: 1;
+}
+
+.intro-text h1{
+    font-size: 60px;
+    font-weight: bold;
+    background: linear-gradient(to right, #477d7a, #6ac8c2);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.intro-text ul{
+    margin-top: 20px;
+    list-style: none;
+}
+
+.intro-text ul li{
+    font-size: 20px;
+}
+
+.picture{
+    flex: 1;
+}
+.picture img{
+    float: right;
+    width: 400px;
+}
+
+/* end: sample item intro */
+
+/* buy button */
+
+.cta{
+    padding: 50px 0px 0px 0px;
+}
+
+.add-to-cart{
+    border: 2px solid #477d7a;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #477d7a;
+    width: 150px;
+    height: 50px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.add-to-cart:hover{
+    background-color: #477d7a;
+    color: white;
+}
+
+
+
+
+/* end: buy button */
+
+/* back to top */
+
+.top{
+    height: 50px;
+    background-color: #6ac8c2;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.top a{
+    text-decoration: none;
+    color: whitesmoke;
+
+    margin: 0;
+}
+
+/* end: back to top */
+
+/* footer */
+
+footer{
+  height: 100px;
+  background-color: #477d7a;
+}
+
+/* end footer */
